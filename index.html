@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.css"
+    />
+    <style>
+      .nav-link {
+        color: #e3e1e1 !important;
+      }
+      .nav-link:hover {
+        text-decoration: underline;
+        transition: all 0.2s;
+      }
+      .col-1:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: #0d6efd;
+        transition: all 0.2s;
+      }
+      .paragraf {
+        font-size: 28px;
+        padding: 20px;
+        margin: 20px 0;
+      }
+      .card-body i {
+        font-size: 56px;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+      .icon-sosmed:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: #0d6efd;
+        transition: all 0.2s;
+      }
+      .sosmed span {
+        font-size: 28px;
+        font-weight: 600;
+      }
+      .card-footer {
+        background-color: transparent;
+        border: none;
+      }
+      .card-text-footer:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        color: #0d6efd;
+        transition: all 0.2s;
+      }
+      .copyright .span-1:hover,
+      .copyright .span-2:hover,
+      .copyright .span-3:hover,
+      .copyright .span-4:hover {
+        color: #0d6efd;
+        cursor: pointer;
+        text-decoration: underline;
+        transition: all 0.2s;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Mulai Navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+      <div class="container fs-4 fw-medium">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/logo.jpg"
+            alt="Logo"
+            width="50"
+            height="50"
+            class="rounded-circle"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Archive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Header -->
+    <section>
+      <div class="container">
+        <div class="row align-items-center mt-3">
+          <div class="col-8 fs-1 fw-semibold">Lorem ipsum</div>
+          <div class="col-1 fs-5 fw-normal">some</div>
+          <div class="col-1 fs-5 fw-normal">sub</div>
+          <div class="col-1 fs-5 fw-normal">menu</div>
+          <div class="col-1 fs-5 fw-normal">item</div>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <!-- Akhir Header -->
+
+    <!-- Content -->
+    <section>
+      <div class="container text-center">
+        <div class="row row-cols-1">
+          <div class="col fs-1 fw-bold">Aenean at Ipsum</div>
+          <div class="col fs-1">Phasellus quis felis lacinia.</div>
+
+          <!-- Cards -->
+          <div class="cards d-flex justify-content-center gap-5 mt-5">
+            <div class="card" style="width: 16rem">
+              <img
+                src="img/product-20jan2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+            <div class="card" style="width: 16rem">
+              <img
+                src="img/product-27shoes_1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+            <div class="card" style="width: 16rem">
+              <img
+                src="img/product-shoesoct10.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <!-- Akhir Cards -->
+
+          <!-- Paragraf -->
+          <div class="paragraf">
+            <p class="text-center lh-base">
+              Phasellus ac leo eget felis egestas vestibulum nec at velit.
+              Vivamus venenatis, nibh ut tempus viverra, tellus augue pulvinar
+              sapien, at iaculis justo nisi non metus. Quisque quis malesuada
+              arcu, sed ultricies nibh. Duis vehicula metus quis arcu rutrum
+              faucibus eget ut ex. Curabitur lacus justo, iaculis congue
+              suscipit quis, posuere at turpis. Class aptent taciti sociosqu ad
+              litora torquent per conubia nostra, per inceptos himenaeos. Donec
+              in quam non urna volutpat consequat. Proin mollis ut mauris et
+              venenatis. Vivamus dui nibh, blandit vitae pellentesque sed,
+              finibus sit amet nulla.
+            </p>
+          </div>
+          <hr />
+          <!-- Akhir Paragraf -->
+
+          <!-- paragraf 2 -->
+          <h1 class="mt-3 mb-3">Nulla at Tempus</h1>
+          <p class="paragraf">
+            Morbi bibendum faucibus placerat. Morbi vulputate, nunc nec pretium
+            condimentum, erat nunc tincidunt leo, scelerisque ullamcorper dui
+            dolor porttitor neque. Donec ut faucibus erat, vel efficitur enim.
+            Fusce sit amet ligula eu libero lacinia condimentum sed in turpis.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Vivamus pulvinar metus vel neque sagittis, at
+            pharetra tellus tincidunt. Sed semper euismod ipsum, feugiat
+            consequat nisi eleifend et. Duis volutpat gravida efficitur. Nulla
+            iaculis blandit semper. Maecenas eget aliquet libero. Donec sit amet
+            sagittis erat. Sed elementum felis id interdum cursus. Phasellus ac
+            urna feugiat, placerat massa et, vestibulum odio. Aenean eu nisl
+            lobortis, tincidunt ligula rhoncus, convallis mi.
+          </p>
+          <hr />
+          <!-- Akhir paragraf 2 -->
+
+          <!-- Sosmed -->
+          <h1 class="fw-bold mb-5">Get Social</h1>
+          <div class="sosmed d-flex justify-content-center mb-3">
+            <div
+              class="card me-4 icon-sosmed"
+              style="width: 18rem; background-color: transparent; border: none"
+            >
+              <div class="card-body">
+                <i class="fa-brands fa-facebook-f"></i>
+                <p class="card-text">
+                  <span>Visit</span> <br />We are on Facebook
+                  <br />facebook.com/some-where
+                </p>
+              </div>
+            </div>
+            <div
+              class="card me-4 icon-sosmed"
+              style="width: 18rem; background-color: transparent; border: none"
+            >
+              <div class="card-body">
+                <i class="fa-brands fa-twitter"></i>
+                <p class="card-text">
+                  <span>Follow</span> <br />We are on Twitter
+                  <br />twitter.com/some-where
+                </p>
+              </div>
+            </div>
+            <div
+              class="card me-4 icon-sosmed"
+              style="width: 18rem; background-color: transparent; border: none"
+            >
+              <div class="card-body">
+                <i class="fa-brands fa-square-instagram"></i>
+                <p class="card-text">
+                  <span>Like</span> <br />We are on Instagram
+                  <br />instagram.com/some-where
+                </p>
+              </div>
+            </div>
+            <div
+              class="card icon-sosmed"
+              style="width: 18rem; background-color: transparent; border: none"
+            >
+              <div class="card-body">
+                <i class="fa-brands fa-google-plus-g"></i>
+                <p class="card-text">
+                  <span>+1</span> <br />We are on Google+
+                  <br />plus.google.com/some-where
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <!-- Akhir sosmed -->
+
+          <!-- Footer -->
+          <div
+            class="footer d-flex text-start justify-content-center mt-3 text-body-tertiary"
+          >
+            <div class="card card-footer" style="width: 10rem">
+              <div class="card-body">
+                <h5 class="card-title">Aliquam vitae</h5>
+                <p class="card-text-footer">
+                  Nunc <br />
+                  Imperdiet <br />
+                  Quis <br />
+                  Interdum <br />
+                  Fames <br />
+                  Primis <br />
+                  Maecenas <br />
+                  Mivelit <br />
+                  Volutpat <br />
+                </p>
+              </div>
+            </div>
+            <div class="card card-footer" style="width: 10rem">
+              <div class="card-body">
+                <h5 class="card-title">Integer venenatis</h5>
+                <p class="card-text-footer">
+                  Mauris <br />
+                  Exiaculis <br />
+                  Fusce <br />
+                  Ornare <br />
+                  Nectortor <br />
+                  Efficitur <br />
+                  Nunc <br />
+                </p>
+              </div>
+            </div>
+            <div class="card card-footer" style="width: 10rem">
+              <div class="card-body">
+                <h5 class="card-title">Pharetra</h5>
+                <p class="card-text-footer">
+                  Mortor <br />
+                  Integer <br />
+                  Namut <br />
+                  Eegestas <br />
+                  <span class="mt-4 fs-5 fw-medium d-inline-block"
+                    >Quisque magna</span
+                  ><br />
+                  Leo <br />
+                  Venenatis <br />
+                  Nullam <br />
+                </p>
+              </div>
+            </div>
+            <div class="card card-footer" style="width: 10rem">
+              <div class="card-body">
+                <h5 class="card-title">In elit vitae</h5>
+                <p class="card-text-footer">
+                  Luctus <br />
+                  Nunc ac ipsum <br />
+                  Aenean <br />
+                  Condimentum <br />
+                  Donec <br />
+                  Nisinec <br />
+                  Integer <br />
+                  Posuere <br />
+                  Vivamus <br />
+                </p>
+              </div>
+            </div>
+            <div class="card card-footer" style="width: 10rem">
+              <div class="card-body">
+                <h5 class="card-title">Pellentesque</h5>
+                <p class="card-text-footer">
+                  Imperdiet <br />
+                  Congue diam <br />
+                  Mauris <br />
+                  Eu magna <br />
+                  Morbi et libero <br />
+                  Nam ut justo <br />
+                  Tortor <br />
+                  Id efficitur <br />
+                  Nunc rutrum <br />
+                  Imperdiet <br />
+                </p>
+              </div>
+            </div>
+            <div class="card card-footer" style="width: 10rem">
+              <div class="card-body">
+                <h5 class="card-title">Orci varius</h5>
+                <p class="card-text-footer">
+                  Penatibus <br />
+                  Disparturient <br />
+                  Montes <br />
+                  Nascetur <br />
+                  Ridiculus mus <br />
+                  Vivamus <br />
+                  Ultrices finibus <br />
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <!-- Copyright -->
+          <div class="container text-center text-body-tertiary p-3 copyright">
+            <div class="row align-items-start">
+              <div class="col">&copy; Copyright 2017 Company Name.</div>
+              <div class="col">
+                <span class="span-1">Privacy</span> |
+                <span class="span-2">Terms of Use</span> |
+                <span class="span-3">Support</span> |
+                <span class="span-4">Site Map</span>
+              </div>
+              <div class="col">HTML & CSS by MLPdesign</div>
+            </div>
+          </div>
+          <!-- Akhir footer -->
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Content -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
